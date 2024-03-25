@@ -1,58 +1,104 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1rem;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
 }
 section {
-    background-color: #BBDDEE;
-    margin-block-end: 1rem;
-    padding: 1rem;
+  background-color: #bbddee;
+  margin-block-end: 1rem;
+  padding: 1rem;
 }
 .reunaviiva {
-    border: black solid 1px;
+  border: black solid 1px;
 }
 .iso {
-    font-size: 500%;
-    float: left;
-    width: 5rem;
-    text-align: center;
-    padding: 0.2rem;
-    background-color: #568;
-    color: white;
-    border: white solid 1px;
-    border-width: 0 1rem 1rem 0;
-    margin: -1rem 2rem 2rem -1rem;
+  font-size: 500%;
+  float: left;
+  width: 5rem;
+  text-align: center;
+  padding: 0.2rem;
+  background-color: #568;
+  color: white;
+  border: white solid 1px;
+  border-width: 0 1rem 1rem 0;
+  margin: -1rem 2rem 2rem -1rem;
 }
-h1, h2, h3, p, pre, ul {
-    margin-block-end: 1rem;
+h1,
+h2,
+h3,
+p,
+pre,
+ul {
+  margin-block-end: 1rem;
 }
 h1 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 h2 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: #88aabb;
+  text-align: right;
+  padding: 1rem;
+  margin: -1rem -1rem 2rem 0rem;
+  border-bottom: #7a9cb9 solid 1px;
 }
 h3 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-block-start: 2rem;
 }
 p {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 ul {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 pre {
-    font-size: 1.6rem;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
 }
-figure {
-background-color: white;
+.magnifier img {
+  width: 80%;
+  float: left;
+  background-color: white;
+  border: black solid 1px;
+  padding: 1rem;
+  width: 5rem;
+  margin: -1rem 2rem 2rem -1rem;
 }
+
 .banner {
-    background-color: white;
-    border: black solid 1px;
-    padding: 1rem;
-    margin: -1rem 2rem 2rem -1rem;
+  float: left;
+  background-color: white;
+  border: black solid 1px;
+  padding: 1.5rem;
+  margin: -1rem 2rem 2rem -1rem;
+  width: 40%;
+  font-size: 1rem;
+}
+.banner-right {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+  width: 30%;
+  text-align: left;
+  background-color: white;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  border-left: black solid 1px;
+  border-right: none;
+  padding: 2rem;
+  margin: 0rem -1.1rem 0rem 0rem;
+}
+ul {
+    list-style-type: disc;
+    margin: 0rem -2rem 0rem 2rem;
+}
+a {
+    color: blue;
+    text-decoration: underline;
 }
